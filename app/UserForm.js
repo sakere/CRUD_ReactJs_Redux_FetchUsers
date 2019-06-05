@@ -55,43 +55,43 @@ return (
         <FormGroup row>
           <Label  >First Name</Label>
           <Col >
-            <Input type="text" name="first_name" id="first_name" placeholder="Enter a First Name" onChange={this.handleChange} required/>
+            <Input type="text" value={this.state.first_name} name="first_name" id="first_name" placeholder="Enter a First Name" onChange={this.handleChange} required/>
           </Col>
         </FormGroup><br/><br/>
         <FormGroup row>
           <Label  >Last Name</Label>
           <Col >
-            <Input type="text" name="last_name" id="last_name" placeholder="Enter a Last Namer" onChange={this.handleChange} required/>
+            <Input type="text" value={this.state.last_name} name="last_name" id="last_name" placeholder="Enter a Last Namer" onChange={this.handleChange} required/>
           </Col>
         </FormGroup><br/><br/>
         <FormGroup row>
           <Label >User Name</Label>
           <Col >
-            <Input type="text" name="userName" id="userName" placeholder="Enter a User Name" onChange={this.handleChange} required/>
+            <Input type="text" value={this.state.userName} name="userName" id="userName" placeholder="Enter a User Name" onChange={this.handleChange} required/>
           </Col>
         </FormGroup><br/><br/>
         <FormGroup row>
           <Label >Phone Number</Label>
           <Col >
-            <Input type="number" name="phoneNumber" id="phoneNumber" placeholder="Enter a Phone Number" onChange={this.handleChange} required/>
+            <Input type="number" value={this.state.phoneNumber} name="phoneNumber" id="phoneNumber" placeholder="Enter a Phone Number" onChange={this.handleChange} required/>
           </Col>
         </FormGroup><br/><br/>
         <FormGroup row>
           <Label >Address</Label>
           <Col >
-            <Input type="text" name="address" id="address" placeholder="Enter an Address" onChange={this.handleChange} required/>
+            <Input type="text" value={this.state.address} name="address" id="address" placeholder="Enter an Address" onChange={this.handleChange} required/>
           </Col>
         </FormGroup><br/><br/>
         <FormGroup row>
           <Label >Email Id</Label>
           <Col >
-            <Input type="email" name="email" id="email" placeholder="Enter an Email Address" onChange={this.handleChange} required/>
+            <Input type="email" value={this.state.email} name="email" id="email" placeholder="Enter an Email Address" onChange={this.handleChange} required/>
           </Col>
         </FormGroup><br/><br/>
         <FormGroup row>
           <Label >Pin Code</Label>
           <Col >
-            <Input type="number" name="pinCode" id="pinCode" placeholder="Enter a Pincode" onChange={this.handleChange} required/>
+            <Input type="number" value={this.state.pinCode} name="pinCode" id="pinCode" placeholder="Enter a Pincode" onChange={this.handleChange} required/>
           </Col>
         </FormGroup><br/><br/>
         <FormGroup check row>
